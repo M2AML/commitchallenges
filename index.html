@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <main>
+            <header>
+                <h1>Restaurant</h1>
+                <nav>
+                    <a href="#" data-nav="1" class="active" >Bienvenue</a>
+                    <a href="#" data-nav="2" >A Propos</a>
+                    <a href="#" data-nav="3" >Cuisine</a>
+                    <a href="#" data-nav="4" >Horaires</a>
+                </nav>
+            </header>
+            <article class="tabs">
+                <section class="home tab active-tab" data-nav="1">
+                    <h1>Notre Restaurant</h1>
+                    <p>Le meilleur de la ville</p>
+                </section>
+
+                <section class="about tab" data-nav="2">
+                    <h1>Nous sommes un Restaurant Local</h1>
+                    <p>Venez savourez les spécialités Local</p>
+                </section>
+
+                <section class="cuisine tab" data-nav="3">
+                    <h1>Dans notre cuisine</h1>
+                    <p>Il n'y a que des chefs expert</p>
+                </section>
+
+                <section class="plat tab" data-nav="4">
+                    <h1>Ouvert du Lundi au Samedi</h1>
+                    <p>de 8h à 22h </p>
+                </section>
+            </article>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>
